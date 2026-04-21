@@ -1,0 +1,29 @@
+# ─── Build ───────────────────────────────
+build/
+*.o
+*.out
+*.exe
+
+# ─── CUDA / CMake ────────────────────────
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ─── Logs ────────────────────────────────
+*.log
+
+# ─── OS files ────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Node / React ────────────────────────
+dashboard/node_modules/
+dashboard/dist/
+dashboard/.vite/
+
+# ─── Env ─────────────────────────────────
+.env
+
+# ─── JSON outputs (optional) ─────────────
+*.json
