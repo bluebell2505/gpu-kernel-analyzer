@@ -135,10 +135,3 @@ ncu --metrics sm__warps_active.avg.pct_of_peak_sustained_active \
     ./gpu-analyzer --compare stencil
 ```
 
----
-
-## Resume bullet
-
-> Built a CUDA kernel performance analyzer detecting warp divergence, uncoalesced memory,  
-> and atomic contention using static heuristics + CUDA event profiling; validated  
-> 2–4× measured speedups against Nsight Compute on RTX 3050.
